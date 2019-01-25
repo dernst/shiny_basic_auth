@@ -12,5 +12,5 @@ with_http_auth(app, cred)
 \item{cred}{named list of username/password pairs}
 }
 \description{
-Add HTTP Basic authentication to a shinyApp object
+Example usage: with_http_auth(shinyApp(ui=ui, server=server), list(user="pw"))
 }

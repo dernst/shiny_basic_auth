@@ -28,6 +28,8 @@ httphandler_auth = function(oldhandler, cred) {
 }
 
 #' Add HTTP Basic authentication to a shinyApp object
+#'
+#' Example usage: with_http_auth(shinyApp(ui=ui, server=server), list(user="pw"))
 #' @export with_http_auth
 #' @param app shinyApp object
 #' @param cred named list of username/password pairs

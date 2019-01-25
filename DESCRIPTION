@@ -1,0 +1,11 @@
+Package: shinybasicauth
+Title: What the Package Does (one line, title case)
+Version: 0.1
+Authors@R: person("Dominik", "Ernst", email = "github@dernst.org", role = c("aut", "cre"))
+Description: Provide basic HTTP authentication for shiny apps
+Depends: R (>= 3.0)
+Import: shiny
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

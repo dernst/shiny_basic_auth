@@ -4,8 +4,6 @@ httphandler_auth = function(oldhandler, cred) {
     force(oldhandler)
     credstr = paste(names(cred), cred, sep=":")
     function(req) {
-        ret = oldhandler(req)
-
         auth_ok = FALSE
 
         if(exists("HTTP_AUTHORIZATION", envir=req)) {
